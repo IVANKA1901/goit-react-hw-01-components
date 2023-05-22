@@ -1,0 +1,58 @@
+.friends {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 370px;
+}
+
+.friends_list {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  padding: 0;
+}
+
+.friends_item {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px #c6cccced;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+.friends_item:hover {
+  box-shadow: 0 0 15px #c6cccced;
+}
+
+.friends_status {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.true {
+  background-color: #50a759;
+}
+
+.false {
+  background-color: #e74c3c;
+}
+
+.avatar {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.friends_name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #524a4d;
+  text-align: center;
+}

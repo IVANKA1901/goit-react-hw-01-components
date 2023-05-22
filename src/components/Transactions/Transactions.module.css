@@ -1,0 +1,57 @@
+table {
+  margin-top: 50px;
+  display: inline-table;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px #3a7e7eed;
+  width: 500px;
+  border-spacing: 0;
+}
+
+thead tr {
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+table th {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #c72d65;
+  text-transform: uppercase;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-bottom: 2px solid #c72d65;
+}
+
+table td {
+  padding: 10px;
+  width: inherit;
+  font-weight: 700;
+  font-size: 15px;
+  color: #060606;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+table tr {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #0fc1c1e6;
+  transition: background-color 0.3s ease;
+}
+
+table tr:hover {
+  background-color: #e6f7f7;
+}
+
+table tr:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+/* Add striped rows */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
