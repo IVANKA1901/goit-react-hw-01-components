@@ -7,9 +7,6 @@ export const Statistics = ({ title, stats }) => {
 
       <ul className={css.stats_list}>
         {stats.map(({ id, label, percentage }) => {
-          console.log(label);
-          console.log(percentage);
-
           return (
             <li
               className={css.stats}
